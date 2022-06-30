@@ -3,7 +3,7 @@ class AvisosController < ApplicationController
 
   # GET /avisos or /avisos.json
   def index
-    @avisos = Aviso.all
+    @avisos = Aviso.page params[:page]
   end
 
   # GET /avisos/1 or /avisos/1.json

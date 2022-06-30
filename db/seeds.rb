@@ -7,5 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 60.times do |i|
-    Aviso.create(titulo: "titulo del aviso", descripcion:"descripcion del aviso", categoria: "asistencia")
+    Aviso.create(titulo: "titulo del aviso #{i}", descripcion:"descripcion del aviso", categoria: "asistencia")
 end
