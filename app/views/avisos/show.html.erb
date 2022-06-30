@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @aviso %>
+
+<div>
+  <%= link_to "Edit this aviso", edit_aviso_path(@aviso) %> |
+  <%= link_to "Back to avisos", avisos_path %>
+
+  <%= button_to "Destroy this aviso", @aviso, method: :delete %>
+</div>

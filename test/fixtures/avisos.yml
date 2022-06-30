@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_aviso: MyString
+  id_socio: MyString
+  id_usuario: MyString
+  titulo: MyString
+  descripcion: MyString
+  categoria: MyString
+
+two:
+  id_aviso: MyString
+  id_socio: MyString
+  id_usuario: MyString
+  titulo: MyString
+  descripcion: MyString
+  categoria: MyString
