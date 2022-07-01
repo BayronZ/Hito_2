@@ -22,7 +22,7 @@ class AvisosController < ApplicationController
 
   # POST /avisos or /avisos.json
   def create
-    @aviso = Aviso.new(aviso_params.merge(user: current_user))
+    @aviso = Aviso.new
 
     respond_to do |format|
       if @aviso.save
