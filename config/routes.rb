@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :hito_2s
+  get 'home/index'
+  devise_for :users
   resources :avisos
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  root "avisos#index"
+  root to: "home#index"
 end
